@@ -13,6 +13,10 @@
         background-color: aqua;
       }
 
+      .textBold {
+        font-weight: bold;
+      }
+
       input {
         background-color: blueviolet;
       }
@@ -33,12 +37,16 @@
         border-bottom-right-radius: 20px; */
       }
     </style>
-    <script></script>
-    <script src="./script.js"></script>
+    <script>
+      const h1 = document.querySelector("#h1");
+      console.log("head:", h1);
+    </script>
+    <script src="./script.js" defer></script>
+    <script src="./script2.js"></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>hello world!!</h1>
+    <h1 id="h1">hello world!!</h1>
     <h2>hello world!!</h2>
     <h3>hello world!!</h3>
     <h4>hello world!!</h4>
@@ -48,7 +56,12 @@
     <hr />
 
     <a href="/html/index2.html">html 2</a>
-    <p id="p1" class="bgAqua" style="background-color: chartreuse">
+    <p
+      id="p1"
+      bebas="suka2"
+      class="bgAqua"
+      style="background-color: chartreuse"
+    >
       <u>ini <i>untuk</i> <b>paragraf</b></u>
     </p>
     <p class="bgAqua">ini untuk paragraf 2</p>
